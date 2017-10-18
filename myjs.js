@@ -6,7 +6,7 @@ function replaceEmojis(){
         chatStr = chatStr.replace(";)", "<img class='emoji'src='Img/wink.png'/>");
         chatStr = chatStr.replace(":'(", "<img class='emoji'src='Img/tear.png'/>");
         chatStr = chatStr.replace(":D", "<img class='emoji'src='Img/happy.png'/>");
-        chatStr = chatStr.replace(">:|", "<img class='emoji'src='Img/angry.png'/>");
+        chatStr = chatStr.replace("D:<", "<img class='emoji'src='Img/angry.png'/>");
         chatStr = chatStr.replace("X(", "<img class='emoji'src='Img/dead.png'/>");
         
         chatStr = chatStr.replace("boogie", "******");
